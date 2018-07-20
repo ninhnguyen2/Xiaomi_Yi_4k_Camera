@@ -3,85 +3,85 @@
 #
 #4000x3008 30P 4:3
 #high quality
-writel 0xAB9D24 0x42F00000 #120mbps
+writel 0xAB9D24 0x43200000 #160mbps
 writel 0xAB9D28 0x3F400000 #lower bound: 0.75
 writel 0xAB9D2C 0x3FA00000 #upper bound: 1.25
 #medium quality
-writel 0xAB9D34 0x42960000 #75mbps
+writel 0xAB9D34 0x43070000 #135mbps
 writel 0xAB9D38 0x3F400000 #lower bound: 0.75
 writel 0xAB9D3C 0x3FA00000 #upper bound: 1.25
 #low quality
-writel 0xAB9D44 0x42700000 #60mbps
+writel 0xAB9D44 0x42C80000 #100mbps
 writel 0xAB9D48 0x3F400000 #lower bound: 0.75
 writel 0xAB9D4C 0x3FA00000 #upper bound: 1.25
 #
 #3840x2160 60P 16:9
 #high quality
-writel 0xAB9C94 0x43070000 #135mbps
+writel 0xAB9C94 0x43200000 #160mbps
 writel 0xAB9C98 0x3F400000 #lower bound: 0.75
 writel 0xAB9C9C 0x3FA00000 #upper bound: 1.25
 #medium quality
-writel 0xAB9CA4 0x42C80000 #100mbps
+writel 0xAB9CA4 0x43070000 #135mbps
 writel 0xAB9CA8 0x3F400000 #lower bound: 0.75
 writel 0xAB9CAC 0x3FA00000 #upper bound: 1.25
 #low quality
-writel 0xAB9CB4 0x42700000 #60mbps
+writel 0xAB9CB4 0x42C80000 #100mbps
 writel 0xAB9CB8 0x3F400000 #lower bound: 0.75
 writel 0xAB9CBC 0x3FA00000 #upper bound: 1.25
 #
 #3840x2160 48P 16:9
 #high quality
-writel 0xAB9C64 0x43070000 #135mbps
+writel 0xAB9C64 0x43200000 #160mbps
 writel 0xAB9C68 0x3F400000 #lower bound: 0.75
 writel 0xAB9C6C 0x3FA00000 #upper bound: 1.25
 #medium quality
-writel 0xAB9C74 0x42C80000 #100mbps
+writel 0xAB9C74 0x43070000 #135mbps
 writel 0xAB9C78 0x3F400000 #lower bound: 0.75
 writel 0xAB9C7C 0x3FA00000 #upper bound: 1.25
 #low quality
-writel 0xAB9C84 0x42700000 #60mbps
+writel 0xAB9C84 0x42C80000 #100mbps
 writel 0xAB9C88 0x3F400000 #lower bound: 0.75
 writel 0xAB9C8C 0x3FA00000 #upper bound: 1.25
 #
 #3840x2160 30P 16:9
 #high quality
-writel 0xAB9C04 0x42C80000 #100mbps
+writel 0xAB9C04 0x43200000 #160mbps
 writel 0xAB9C08 0x3F400000 #lower bound: 0.75
 writel 0xAB9C0C 0x3FA00000 #upper bound: 1.25
 #medium quality
-writel 0xAB9C14 0x42700000 #60mbps
+writel 0xAB9C14 0x43070000 #135mbps
 writel 0xAB9C18 0x3F400000 #lower bound: 0.75
 writel 0xAB9C1C 0x3FA00000 #upper bound: 1.25
 #low quality
-writel 0xAB9C24 0x42340000 #45mbps
+writel 0xAB9C24 0x42C80000 #100mbps
 writel 0xAB9C28 0x3F400000 #lower bound: 0.75
 writel 0xAB9C2C 0x3FA00000 #upper bound: 1.25
 #
 #3840x2160 24P 16:9
 #high quality
-writel 0xAB9C34 0x42C80000 #100mbps
+writel 0xAB9C34 0x43200000 #160mbps
 writel 0xAB9C38 0x3F400000 #lower bound: 0.75
 writel 0xAB9C3C 0x3FA00000 #upper bound: 1.25
 #medium quality
-writel 0xAB9C44 0x42700000 #60mbps
+writel 0xAB9C44 0x43070000 #135mbps
 writel 0xAB9C48 0x3F400000 #lower bound: 0.75
 writel 0xAB9C4C 0x3FA00000 #upper bound: 1.25
 #low quality
-writel 0xAB9C54 0x42340000 #45mbps
+writel 0xAB9C54 0x42C80000 #100mbps
 writel 0xAB9C58 0x3F400000 #lower bound: 0.75
 writel 0xAB9C5C 0x3FA00000 #upper bound: 1.25
 #
 #3840x2160 30P 16:9 super
 #high quality
-writel 0xAB9CC4 0x42C80000 #100mbps
+writel 0xAB9CC4 0x43200000 #160mbps
 writel 0xAB9CC8 0x3F400000 #lower bound: 0.75
 writel 0xAB9CCC 0x3FA00000 #upper bound: 1.25
 #medium quality
-writel 0xAB9CD4 0x42700000 #60mbps
+writel 0xAB9CD4 0x43070000 #135mbps
 writel 0xAB9CD8 0x3F400000 #lower bound: 0.75
 writel 0xAB9CDC 0x3FA00000 #upper bound: 1.25
 #low quality
-writel 0xAB9CE4 0x42340000 #45mbps
+writel 0xAB9CE4 0x42C80000 #100mbps
 writel 0xAB9CE8 0x3F400000 #lower bound: 0.75
 writel 0xAB9CEC 0x3FA00000 #upper bound: 1.25
 #
@@ -227,113 +227,113 @@ writel 0xABA07C 0x3FA00000 #upper bound: 1.25
 #
 #1920x1080 120P 16:9
 #high quality
-writel 0xABAA14 0x42960000 #75mbps
+writel 0xABAA14 0x43070000 #135mbps
 writel 0xABAA18 0x3F400000 #lower bound: 0.75
 writel 0xABAA1C 0x3FA00000 #upper bound: 1.25
 #medium quality
-writel 0xABAA24 0x42700000 #60mbps
+writel 0xABAA24 0x42C80000 #100mbps
 writel 0xABAA28 0x3F400000 #lower bound: 0.75
 writel 0xABAA2C 0x3FA00000 #upper bound: 1.25
 #low quality
-writel 0xABAA34 0x42340000 #45mbps
+writel 0xABAA34 0x42700000 #60mbps
 writel 0xABAA38 0x3F400000 #lower bound: 0.75
 writel 0xABAA3C 0x3FA00000 #upper bound: 1.25
 #
 #1920x1080 60P 16:9
 #high quality
-writel 0xABA084 0x42700000 #60mbps
+writel 0xABA084 0x43070000 #135mbps
 writel 0xABA088 0x3F400000 #lower bound: 0.75
 writel 0xABA08C 0x3FA00000 #upper bound: 1.25
 #medium quality
-writel 0xABA094 0x42340000 #45mbps
+writel 0xABA094 0x42C80000 #100mbps
 writel 0xABA098 0x3F400000 #lower bound: 0.75
 writel 0xABA09C 0x3FA00000 #upper bound: 1.25
 #low quality
-writel 0xABA0A4 0x41C00000 #24mbps
+writel 0xABA0A4 0x42700000 #60mbps
 writel 0xABA0A8 0x3F400000 #lower bound: 0.75
 writel 0xABA0AC 0x3FA00000 #upper bound: 1.25
 #
 #1920x1080 48P 16:9
 #high quality
-writel 0xABA774 0x42700000 #60mbps
+writel 0xABA774 0x43070000 #135mbps
 writel 0xABA778 0x3F400000 #lower bound: 0.75
 writel 0xABA77C 0x3FA00000 #upper bound: 1.25
 #medium quality
-writel 0xABA784 0x42340000 #45mbps
+writel 0xABA784 0x42C80000 #100mbps
 writel 0xABA788 0x3F400000 #lower bound: 0.75
 writel 0xABA78C 0x3FA00000 #upper bound: 1.25
 #low quality
-writel 0xABA794 0x41C00000 #24mbps
+writel 0xABA794 0x42700000 #60mbps
 writel 0xABA798 0x3F400000 #lower bound: 0.75
 writel 0xABA79C 0x3FA00000 #upper bound: 1.25
 #
 #1920x1080 30P 16:9
 #high quality
-writel 0xABA174 0x42700000 #60mbps
+writel 0xABA174 0x43070000 #135mbps
 writel 0xABA178 0x3F400000 #lower bound: 0.75
 writel 0xABA17C 0x3FA00000 #upper bound: 1.25
 #medium quality
-writel 0xABA184 0x42340000 #45mbps
+writel 0xABA184 0x42C80000 #100mbps
 writel 0xABA188 0x3F400000 #lower bound: 0.75
 writel 0xABA18C 0x3FA00000 #upper bound: 1.25
 #low quality
-writel 0xABA194 0x41C00000 #24mbps
+writel 0xABA194 0x42700000 #60mbps
 writel 0xABA198 0x3F400000 #lower bound: 0.75
 writel 0xABA19C 0x3FA00000 #upper bound: 1.25
 #
 #1920x1080 24P 16:9
 #high quality
-writel 0xABA7A4 0x42700000 #60mbps
+writel 0xABA7A4 0x43070000 #135mbps
 writel 0xABA7A8 0x3F400000 #lower bound: 0.75
 writel 0xABA7AC 0x3FA00000 #upper bound: 1.25
 #medium quality
-writel 0xABA7B4 0x42340000 #45mbps
+writel 0xABA7B4 0x42C80000 #100mbps
 writel 0xABA7B8 0x3F400000 #lower bound: 0.75
 writel 0xABA7BC 0x3FA00000 #upper bound: 1.25
 #low quality
-writel 0xABA7C4 0x41C00000 #24mbps
+writel 0xABA7C4 0x42700000 #60mbps
 writel 0xABA7C8 0x3F400000 #lower bound: 0.75
 writel 0xABA7CC 0x3FA00000 #upper bound: 1.25
 #
 #1920x1080 90P 16:9 super
 #high quality
-writel 0xABAD44 0x42960000 #75mbps
+writel 0xABAD44 0x43070000 #135mbps
 writel 0xABAD48 0x3F400000 #lower bound: 0.75
 writel 0xABAD4C 0x3FA00000 #upper bound: 1.25
 #medium quality
-writel 0xABAD54 0x42700000 #60mbps
+writel 0xABAD54 0x42C80000 #100mbps
 writel 0xABAD58 0x3F400000 #lower bound: 0.75
 writel 0xABAD5C 0x3FA00000 #upper bound: 1.25
 #low quality
-writel 0xABAD64 0x42340000 #45mbps
+writel 0xABAD64 0x42700000 #60mbps
 writel 0xABAD68 0x3F400000 #lower bound: 0.75
 writel 0xABAD6C 0x3FA00000 #upper bound: 1.25
 #
 #1920x1080 60P 16:9 super
 #high quality
-writel 0xABA0E4 0x42700000 #60mbps
+writel 0xABA0E4 0x43070000 #135mbps
 writel 0xABA0E8 0x3F800000 #lower bound: 1
 writel 0xABA0EC 0x3F800000 #upper bound: 1
 #medium quality
-writel 0xABA0F4 0x42340000 #45mbps
+writel 0xABA0F4 0x42C80000 #100mbps
 writel 0xABA0F8 0x3F800000 #lower bound: 1
 writel 0xABA0FC 0x3F800000 #upper bound: 1
 #low quality
-writel 0xABA104 0x41C00000 #24mbps
+writel 0xABA104 0x42700000 #60mbps
 writel 0xABA108 0x3F800000 #lower bound: 1
 writel 0xABA10C 0x3F800000 #upper bound: 1
 #
 #1920x1080 30P 16:9 super
 #high quality
-writel 0xABA1A4 0x42700000 #60mbps
+writel 0xABA1A4 0x43070000 #135mbps
 writel 0xABA1A8 0x3F400000 #lower bound: 0.75
 writel 0xABA1AC 0x3FA00000 #upper bound: 1.25
 #medium quality
-writel 0xABA1B4 0x42340000 #45mbps
+writel 0xABA1B4 0x42C80000 #100mbps
 writel 0xABA1B8 0x3F400000 #lower bound: 0.75
 writel 0xABA1BC 0x3FA00000 #upper bound: 1.25
 #low quality
-writel 0xABA1C4 0x41C00000 #24mbps
+writel 0xABA1C4 0x42700000 #60mbps
 writel 0xABA1C8 0x3F400000 #lower bound: 0.75
 writel 0xABA1CC 0x3FA00000 #upper bound: 1.25
 #
